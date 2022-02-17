@@ -1,0 +1,6 @@
+The account number is:1300302001
+The amount in the account :500.0
+The amount withdran is :70.0
+The available amount in the account is :430.0
+Transaction successful
+Transaction time  and date:2022-02-18T00:46:12.145622311

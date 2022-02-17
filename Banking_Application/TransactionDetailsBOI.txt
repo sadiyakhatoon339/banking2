@@ -1,0 +1,6 @@
+The account number is:1800101001
+The amount in the account :1800.0
+The amount withdrawn is :80.0
+The available amount in the account is :1720.0
+Transaction successful
+Transaction time  and date:2022-02-18T00:46:12.137595990

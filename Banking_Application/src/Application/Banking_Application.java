@@ -31,7 +31,7 @@ class InsufficientAmountException extends Exception{
 
 
 class SBI extends Bank{
-    void getdetails(String name,String B_name,double roi){
+    void getDetails(String name,String B_name,double roi){
 
         Name=name;
         Branch_name=B_name;
@@ -41,7 +41,7 @@ class SBI extends Bank{
     }
 
 
-    void printdetails(String name,String B_name,double roi)
+    void printDetails(String name,String B_name,double roi)
     {
         System.out.println("Name of the bank is : "+name  +"  Branch name is: "+B_name +"  It provides the Rate of Interest of "+roi +"%" );
     }
@@ -97,7 +97,7 @@ class SBI extends Bank{
 
 
 class BOI extends Bank{
-    void getdetails(String name,String B_name,double roi){
+    void getDetails(String name,String B_name,double roi){
 
         Name=name;
         Branch_name=B_name;
@@ -106,7 +106,7 @@ class BOI extends Bank{
 
     }
 
-    void printdetails(String name,String B_name,double roi)
+    void printDetails(String name,String B_name,double roi)
     {
         System.out.println("Name of the bank is : "+name  +"  Branch name is: "+B_name +"  It provides the Rate of Interest of "+roi +"%" );
     }
@@ -159,7 +159,7 @@ class BOI extends Bank{
 
 class ICICI extends Bank{
 
-    void getdetails(String name,String B_name,double roi){
+    void getDetails(String name,String B_name,double roi){
 
         Name=name;
         Branch_name=B_name;
@@ -168,7 +168,7 @@ class ICICI extends Bank{
 
     }
 
-    void printdetails(String name,String B_name,double roi)
+    void printDetails(String name,String B_name,double roi)
     {
         System.out.println("Name of the bank is : "+name  +".  Branch name is: "+B_name +".  It provides the Rate of Interest of "+roi +"%" );
     }
@@ -224,16 +224,16 @@ public class Banking_Application {
         BOI ob1=new BOI();
         ICICI ob2=new ICICI();
 
-        ob.getdetails("SBI","lucknowbranch",6);
-        ob.printdetails("SBI","lucknowbranch",6);
+        ob.getDetails("SBI","lucknowbranch",6);
+        ob.printDetails("SBI","lucknowbranch",6);
         ob.account(1800101001,1800,80);
 
-        ob1.getdetails("BOI","bombayBranch",8);
-        ob1.printdetails("BOI","bombayBranch",8);
+        ob1.getDetails("BOI","bombayBranch",8);
+        ob1.printDetails("BOI","bombayBranch",8);
         ob1.account(1400101001,1800,180000);
 
-        ob2.getdetails("ICICI","hyderabadbranch",7);
-        ob2.printdetails("ICICI","hyderabadbranch",7);
+        ob2.getDetails("ICICI","hyderabadbranch",7);
+        ob2.printDetails("ICICI","hyderabadbranch",7);
         ob2.account(1300302001,500,70);
 
 
